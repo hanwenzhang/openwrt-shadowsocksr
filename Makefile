@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=shadowsocksR-libev
-PKG_VERSION:=2.5.6
-PKG_RELEASE:=2
+PKG_VERSION:=2019-11-08
+PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
-PKG_SOURCE_URL:=https://github.com/ssrbackup/shadowsocksr-libev.git
+PKG_SOURCE_URL:=https://github.com/lonesafe/shadowsocksr-libev.git
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=f713aa981169d35ff9483b295d1209c35117d70c
+PKG_SOURCE_VERSION:=56bea8ef036cffc45f61edaddfad4f507e4dbefc
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_MAINTAINER:=breakwa11
 
